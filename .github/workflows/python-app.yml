@@ -24,7 +24,7 @@ jobs:
         pytest
     - name: Lint with Pylint
       run: |
-        pylint ./CI-CD_lab/utils.py
+        pylint ./utils.py
     - name: Format with Black
       run: |
         black --check .
