@@ -1,9 +1,21 @@
+"""Funtion def"""
+
+
 def add(a: int, b: int) -> int:
-    return a+b
+    """Addition"""
+    return a + b
+
+
 def subtract(a: int, b: int) -> int:
-    return a-b
+    """Subtraction"""
+    return a - b
+
+
 def multiply(a: int, b: int) -> int:
-    return a*b
+    """Multiplication"""
+    return a * b
+
+
 def divide(a: int, b: int) -> float:
-    return a/b
-    
+    """Division"""
+    return a / b
